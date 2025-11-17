@@ -1,0 +1,4 @@
+keytool -import -alias my-cert-atlas 
+-file /Users/your_user/example.az.pem 
+-keystore /Library/Java/your_jdk/Contents/Home/lib/security/cacerts 
+-storepass your_pass
